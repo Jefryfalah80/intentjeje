@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intentjejee">
         <activity
+            android:name=".activity_move_with_data"
+            android:exported="false" />
+        <activity
+            android:name=".MoveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_move_for_result"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
